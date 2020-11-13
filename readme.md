@@ -15,4 +15,3 @@
 - Visual Studio Code
 
 
-<img src="https://ik.imagekit.io/RafaelSekiya/2020-11-13_14-20-31_c9B283_Ez.mp4">
