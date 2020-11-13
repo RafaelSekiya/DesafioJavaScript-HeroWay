@@ -1,5 +1,5 @@
 # Desafio JavaScript
-## Implementar uma Calculadora de acordo com as seguintes regras:
+## Implementar uma Cash Machine de acordo com as seguintes regras:
 
 -  Entregar sempre o menor número de notas possíveis
 - Sacar valores apenas com as notas disponíveis
