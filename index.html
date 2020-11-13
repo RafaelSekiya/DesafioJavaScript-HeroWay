@@ -1,0 +1,78 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="main">
+          <div class="header">
+            <h1>ATM</h1>
+            <div class="welcome">
+              <span>Bem vindo</span>
+            </div>
+          </div>
+          <div class="atm">
+            <div class="account">
+              <div class="item">
+                <span>Saldo</span>
+                <span>
+                  <span class="symbol">$</span> <span class="value">9.999.999 &infin;</span>
+                </span>
+              </div>
+              <div class="item">
+                <span>Notas disponíveis</span>
+                <span>
+                  <span class="bill ">$ 100.00</span>
+                  <span class="bill">$ 50.00</span>
+                  <span class="bill">$ 20.00</span>
+                  <span class="bill">$ 10.00</span>
+                </span>
+              </div>
+
+              <div>
+       
+              <div id=resultado>
+
+              </div>
+            </div>
+              <div id="notasRetiradas" class="withdraw">
+                  <span>Exemplo: 200 = $ 100.00 | + $ 100.00 |</span>
+              </div>
+            </div>
+            <div class="action">
+              <input id="exibirValor" type="text" class="input" placeholder="Informe um valor" readonly />
+              <div class="keyboard">
+                <div class="line">
+                  <div class='button'>1</div>
+                  <div class='button'>2</div>
+                  <div class='button'>3</div>
+                </div>
+                <div class="line">
+                  <div class='button'>4</div>
+                  <div class='button'>5</div>
+                  <div class='button'>6</div>
+                </div>
+                <div class="line">
+                  <div class='button'>7</div>
+                  <div class='button'>8</div>
+                  <div class='button'>9</div>
+                </div>
+                <div class="line">
+                  <div class="action gray" id="btnClear" >Limpar</div>
+                  <div class='button'>0</div>
+                  <div class="action pink" id="btnConfirmar" >Confirmar</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="fast-withdraw"></div>
+        </div>
+      </div>
+
+      <script src="scripts/index.js"></script>
+</body>
+</html>
